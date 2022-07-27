@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" href="pro.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://bootswatch.com/5/cosmo/bootstrap.min.css" />
+    <title>DOCENTES</title>
+</head>
+
+<body>
+    <!-- NAVIGACIÓN-->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">DOCENTES</a>
+        </div>
+    </nav>
+    <div class="container p-4" id="app">
+        <div class="row">
+            <div class="col-md-4">
+
+                <!-- Form contenido -->
+                <form id="book-form" class="card card-body">
+                    <div class="mb-3">
+                        <label for="title">Nombre del docente</label>
+                        <input type="text" id="title" class="form-control" placeholder="Nombre" autofocus />
+                    </div>
+                    <div class="mb-3">
+                        <label for="Apellido">Apellido del docente</label>
+                        <input type="text" id="author" class="form-control" placeholder="Apellido" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="isbn">Sexo</label>
+                        <input type="text" id="isbn" class="form-control" placeholder="Sexo" />
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="author">Dirección</label>
+                        <input type="text" id="author" class="form-control" placeholder="Direccion" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="author">Ciudad</label>
+                        <input type="text" id="author" class="form-control" placeholder="Ciudad" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="author">Pais</label>
+                        <input type="text" id="author" class="form-control" placeholder="Pais" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="author">Fecha de nacimiento</label>
+                        <input type="text" id="author" class="form-control"
+                        placeholder="Fecha de nacimiento" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="author">Edad</label>
+                        <input type="text" id="author" class="form-control" placeholder="Edad" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="author">Correo electronico</label>
+                        <input type="text" id="author" class="form-control"
+                        placeholder="Correo electronico" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="author">Usuario</label>
+                        <input type="text" id="author" class="form-control"
+                        placeholder="Usuario" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="author">Contraseña</label>
+                        <input type="text" id="author" class="form-control"
+                        placeholder="Contraseña" />
+                    </div>
+
+                    <button type="Submit" class="btn btn-primary">Registrar</button>
+                    <br>
+                    <a href="\loginD" class="btn btn-primary" category="SALIR">SALIR</a>
+                    
+
+                </form>
+            </div>
+
+            <div class="col-md-8" id="books-cards"></div>
+        </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+<style>
+
+</style>
+
+</html>

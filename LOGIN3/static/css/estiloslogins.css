@@ -1,0 +1,16 @@
+body{
+  background-color:black;
+}
+.logins {
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: -webkit-linear-gradient(to right, #00dbde, #589770);
+    background: linear-gradient(to right, #00dbde, #4da783);
+    background-image: url("img/bicicleta.jpg");
+  }
